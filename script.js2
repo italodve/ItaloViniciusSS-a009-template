@@ -1,0 +1,17 @@
+const nome = prompt("qual o seu nome?")
+const cor = prompt("qual a sua cor favorita?")
+const citacao = prompt("qual a sua citação favorita?")
+const nomeMaiusculo = nome.toUpperCase()
+
+
+
+console.log("a cor favorita de " + nomeMaiusculo + " é",cor + " a citação favorita é "  + citacao, ) 
+console.log(`a cor favorita de ${nome} é ${cor}`)
+console.log(`quantidade de characters: ${nome,length}` )
+
+
+const verificiarletra = nome.includes("A")
+console.log("o nome da pessoa tem letra A?: " + verificiarletra)
+
+
+
